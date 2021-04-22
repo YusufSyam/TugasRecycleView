@@ -50,6 +50,6 @@ public class ProfileActivity extends AppCompatActivity {
     }
 
     public void back(View view) {
-        startActivity(new Intent(ProfileActivity.this, MainActivity.class));
+        finish();
     }
 }
